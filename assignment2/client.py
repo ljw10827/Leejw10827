@@ -23,6 +23,4 @@ if __name__ == '__main__':
                 if len(args.s) > i+1 :
                         str1 += ' '
 
-        print(str1)
-
         run(host=args.i, port=int(args.p), string=str1)
